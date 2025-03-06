@@ -1,24 +1,22 @@
-import { Component } from '@angular/core';
-import { service } from '../../model/service';
+import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
-  serviceslist:service[] = []
+export class HomeComponent implements OnInit {
+  serviceslist: any[] = [];
 
-  constructor(private api:ApiService){
-  
-  }
+  constructor(private api: ApiService) { }
 
-  ngOnInit(){ 
-      this.api.getServices().subscribe({
-          next:(result:service[])=>this.serviceslist = result,
-          error:(error)=>console.log(error)
-      });
-
+  ngOnInit(): void {
+    this.api.getServices().subscribe({
+      next: (data) => {
+        this.serviceslist = data;
+      },
+      error: (error: any) => console.log(error)
+    });
   }
 }

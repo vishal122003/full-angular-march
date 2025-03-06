@@ -1,0 +1,67 @@
+/* Container for each project */
+.project-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    background-color: #fff;
+  }
+  
+  /* Hover effect for project container */
+  .project-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  /* Project title */
+  .project-title {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Project description */
+  .project-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Project details */
+  .project-details {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* Project details in columns */
+  .project-details span {
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+  }
+  
+  .project-details span:last-child {
+    margin-right: 0;
+  }
+  
+  /* Project image */
+  .project-image {
+    max-width: 20%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.3s;
+  }
+  
+  /* Hover effect for project image */
+  .project-image:hover {
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,12 @@
+<div class="project-container">
+    <h2 class="project-title">{{ project.name }}</h2>
+    <p class="project-description">{{ project.description }}</p>
+    <div class="project-details">
+      <span>Status: {{ project.status }}</span>
+      <span>Start Date: {{ project.startDate }}</span>
+      <span>End Date: {{ project.endDate }}</span>
+      <span>Team Size: {{ project.teamSize }}</span>
+    </div>
+    <img [src]="project.image" alt="{{ project.name }}" class="project-image">
+  </div>
+  

@@ -36,5 +36,269 @@
       "description": "UP starts all major marketing, branding, advertising and creative service projects with a thorough briefing process and market research. This phase might include customer research or a START ME UP workshop.  UP LAB also offers in-depth analysis and market insights to help you understand your customers. ",
       "image": "market.jpg"
     }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "CineWeb: The Ultimate Filmmaking and Webinar Experience",
+      "description": "CineWeb offers a comprehensive platform for film enthusiasts and professionals to explore the art of filmmaking through interactive webinars, virtual film festivals, and industry networking sessions. Join live discussions, Q&A sessions with filmmakers, and gain insights into the world of cinema from the comfort of your home.",
+      "status": "active",
+      "startDate": "2021-01-01",
+      "endDate": "2021-01-31",
+      "teamSize": 10,
+      "image": "http://localhost:8090/cinema.jpg"
+    },
+    {
+      "id": 2,
+      "name": "DigiWave: Mastering the Art of Digital Marketing",
+      "description": "DigiWave is your go-to resource for mastering digital marketing strategies. From social media campaigns and SEO optimization to content creation and influencer marketing, DigiWave provides the tools and knowledge you need to succeed in the digital landscape. Stay ahead of the competition with our expert insights and practical tips.",
+      "status": "completed",
+      "startDate": "2021-02-01",
+      "endDate": "2021-02-28",
+      "teamSize": 8,
+      "image": "http://localhost:8090/digital marketing.jpg"
+    },
+    {
+      "id": 3,
+      "name": "MarketScope: In-Depth Analysis for Business Success",
+      "description": "MarketScope offers detailed market analysis reports, competitive studies, and trend predictions to help businesses make informed decisions. Understand your market, identify opportunities, and develop effective strategies with our comprehensive analysis and expert recommendations.",
+      "status": "completed",
+      "startDate": "2021-03-01",
+      "endDate": "2021-03-31",
+      "teamSize": 6,
+      "image": "http://localhost:8090/market analysis.jpg"
+    },
+    {
+      "id": 4,
+      "name": "EComElevate: Building and Optimizing Online Stores",
+      "description": "EComElevate is your ultimate guide to building and optimizing eCommerce websites. Learn how to create user-friendly online stores, implement effective marketing strategies, and drive sales. From website development to mobile shopping apps, EComElevate covers all aspects of the eCommerce ecosystem.",
+      "status": "completed",
+      "startDate": "2021-04-01",
+      "endDate": "2021-04-30",
+      "teamSize": 12,
+      "image": "http://localhost:8090/ecommerce1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "WebMastery: Crafting Exceptional Websites",
+      "description": " WebMastery is dedicated to helping you create stunning, functional websites. Whether you're building a portfolio site, a blog, or a non-profit organization's website, WebMastery provides step-by-step guidance, best practices, and design inspiration to ensure your website stands out and delivers an exceptional user experience.",
+      "status": "completed",
+      "startDate": "2021-05-01",
+      "endDate": "2021-05-30",
+      "teamSize": 14,
+      "image": "http://localhost:8090/website.jpeg"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "ef47",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef48",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef49",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef50",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef51",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef52",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef53",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef54",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef55",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef56",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef57",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef58",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef59",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef60",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef61",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef62",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef63",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef64",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef65",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef66",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef67",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef68",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef69",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef70",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef71",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef72",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef73",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film & Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef74",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef75",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef76",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    }
   ]
 }
