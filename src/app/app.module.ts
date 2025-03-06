@@ -18,6 +18,8 @@ import { LoginComponent } from './common/login/login.component';
 import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
 import { FilterservicePipe } from './pipes/filterservice.pipe';
 import { HighlightPipe } from './pipes/highlight.pipe';
+import { TeamSizePipe } from './pipes/team-size.pipe';
+import { ProjectStatusPipe } from './pipes/project-status.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,9 @@ import { HighlightPipe } from './pipes/highlight.pipe';
     LoginComponent,
     EnquiriesComponent,
     FilterservicePipe,
-    HighlightPipe
+    HighlightPipe,
+    TeamSizePipe,
+    ProjectStatusPipe
   ],
   imports: [
     BrowserModule,

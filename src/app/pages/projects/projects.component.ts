@@ -1,6 +1,6 @@
-// projects/projects.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../services/api.service';
+import { Project } from '../../model/project'; // Import the Project interface
 
 @Component({
   selector: 'app-projects',
@@ -8,13 +8,22 @@ import { ApiService } from '../../services/api.service';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects: any[] = [];
+  projects: Project[] = [];
+  projectStatuses: string[] = ['Not Started', 'In Progress', 'Completed', 'On Hold'];
+  selectedStatus: string = '';
+  minSize: number = 1;
+  maxSize: number = 10;
 
   constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
-    this.apiService.getProjects().subscribe(data => {
-      this.projects = data;
+    this.apiService.getProjects().subscribe((data: any[]) => {
+      this.projects = data.map(project => ({
+        ...project,
+        teamSize: Number(project.teamSize), // Convert teamSize to number
+        startDate: new Date(project.startDate), // Convert string to Date object
+        endDate: new Date(project.endDate) // Convert string to Date object
+      }));
     });
   }
 }

@@ -87,6 +87,56 @@
       "endDate": "2021-05-30",
       "teamSize": 14,
       "image": "http://localhost:8090/website.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "CodeFusion: Mastering JavaScript",
+      "description": "CodeFusion is your go-to resource for mastering JavaScript. From beginner to advanced concepts, CodeFusion provides comprehensive tutorials, coding challenges, and best practices to help you become a JavaScript pro.",
+      "status": "active",
+      "startDate": "2022-01-15",
+      "endDate": "2022-03-01",
+      "teamSize": 20,
+      "image": "http://localhost:8090/codechef.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "DataVantage: Excel in Data Science",
+      "description": "DataVantage offers in-depth tutorials and real-world projects to help you excel in data science. Whether you're a beginner or an experienced data analyst, DataVantage provides the tools and knowledge you need to succeed.",
+      "status": "planned",
+      "startDate": "2022-04-01",
+      "endDate": "2022-06-30",
+      "teamSize": 18,
+      "image": "http://localhost:8090/datascience.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "AppDevPro: Building Mobile Apps",
+      "description": "AppDevPro guides you through the process of building robust mobile applications. From design to deployment, AppDevPro covers every aspect of mobile app development with practical examples and best practices.",
+      "status": "completed",
+      "startDate": "2021-08-01",
+      "endDate": "2021-09-15",
+      "teamSize": 25,
+      "image": "http://localhost:8090/mobileapps.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "AI Innovators: Exploring Artificial Intelligence",
+      "description": "AI Innovators is dedicated to exploring the fascinating world of artificial intelligence. Through tutorials, case studies, and hands-on projects, AI Innovators provides a comprehensive understanding of AI and its applications.",
+      "status": "active",
+      "startDate": "2023-02-01",
+      "endDate": "2023-04-30",
+      "teamSize": 30,
+      "image": "http://localhost:8090/ai.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "CyberSecure: Enhancing Cybersecurity",
+      "description": "CyberSecure offers expert guidance and best practices to enhance your cybersecurity skills. From network security to ethical hacking, CyberSecure covers a wide range of topics to keep you and your data safe.",
+      "status": "planned",
+      "startDate": "2023-05-01",
+      "endDate": "2023-07-31",
+      "teamSize": 15,
+      "image": "http://localhost:8090/cybersecurity.jpeg"
     }
   ],
   "enquiries": [
